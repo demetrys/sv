@@ -140,6 +140,7 @@ section {
 	width: 1024px;
 	margin: auto;
 	margin-top: 5px;
+	padding: 10px;
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	background: #f9f9f9;
