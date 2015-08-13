@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	background-color: #f5f5f5; /*--#FF0710;--*/
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	min-width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	height: 70px;
+	weight: 100%;
+	background: #f5f5f5;
+	background-image: linear-gradient(top, #ccc, #f5f5f5);
+	background-image: -moz-linear-gradient(top, #ccc, #f5f5f5);
+	background-image: -o-linear-gradient(top, #ccc, #f5f5f5);
+	background-image: -webkit-linear-gradient(top, #ccc, #f5f5f5);
+	}
+
+section {
+	height: 100px;
+	width: 1024px;
+	margin: auto;
+	margin-top: 5px;
+	background-color: transparent;
+	box-shadow: 2px 2px 2px #ddd;
+	border-radius: 10px;
+}
+
+.logo {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-right: 2px;
+	border: 1px solid #ddd;
+    border-radius: 10px 0 0 10px;
+	background-image: url('../img/logo.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.logo a {
+	display: block;
+	height: 100%;
+}
+
+/*----Список моделей----*/
+
+.models_wrap {
+	height: 100px;
+	max-height: 100px;
+	min-width: 922px;
+	padding: 10px;
+	float: right;
+	border: 1px solid #ddd;
+	border-radius: 0 10px 10px 0;
+	background-color: #fff;
+	background-image: url(../img/models/bg1.jpg);
+	background-position: 98%;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	cursor: pointer;
+	transition: background-image 0.7s linear;
+}
+
+.models_wrap h1 {
+	display: block;
+	margin: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.models_wrap ul {
+	min-width: 450px;
+	list-style: none;
+	position: absolute;
+	display: none;
+	padding: 0;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px #ddd;
+}
+
+.models_wrap ul li:first-child{
+	border-top: none;
+}
+
+.models_wrap ul li {
+	padding: 20px;
+	min-height: 100px;
+	border-top: 1px dotted #ddd;
+}
+
+.models_wrap ul li a {
+    display: inline-block;
+    width: 100%;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#sv1, #svs1, #sv2, #svs2 {
+	background-position-x: 90%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#sv1 {
+	background-image: url(../img/models/bg6.jpg);
+}
+
+#svs1 {
+	background-image: url(../img/models/bg1.jpg);
+}
+
+#sv2 {
+	background-image: url(../img/models/bg3.jpg);
+}
+
+#svs2 {
+	background-image: url(../img/models/bg8.jpg);
+}
+
+/*----END Список моделей----*/
+
+.main {
+	height: 728px;
+	width: 1024px;
+	margin: auto;
+	margin-top: 5px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background: #f9f9f9;
+	background-image: linear-gradient(top, #fbfbfb, #f6f6f6);
+	background-image: -moz-linear-gradient(top, #fbfbfb, #f6f6f6);
+	background-image: -o-linear-gradient(top, #fbfbfb, #f6f6f6);
+	background-image: -webkit-linear-gradient(top, #fbfbfb, #f6f6f6);
+	box-shadow: 4px 4px 4px #ddd;
+	overflow: auto;
+}
+
+footer {
+	height: 40px;
+	width: 100%;
+	
+	background: #f5f5f5;
+	background-image: linear-gradient(top, #f5f5f5, #ddd);
+	background-image: -moz-linear-gradient(top, #f5f5f5, #ddd);
+	background-image: -o-linear-gradient(top, #f5f5f5, #ddd);
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #ddd);
+}
