@@ -118,7 +118,7 @@ section {
 }
 
 #sv1 {
-	background-image: url(../img/models/bg6.jpg);
+	background-image: url(../img/models/bg2.jpg);
 }
 
 #svs1 {
@@ -126,7 +126,7 @@ section {
 }
 
 #sv2 {
-	background-image: url(../img/models/bg3.jpg);
+	background-image: url(../img/models/bg5.jpg);
 }
 
 #svs2 {
@@ -140,6 +140,7 @@ section {
 	width: 1024px;
 	margin: auto;
 	margin-top: 5px;
+	padding: 10px;
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	background: #f9f9f9;
