@@ -7,6 +7,8 @@
 html {
 	height: 100%;
 	background-color: #f5f5f5; /*--#FF0710;--*/
+	background-image: url(../img/bgsprite.png);
+	background-repeat: repeat-x;
 }
 
 body {
@@ -14,17 +16,18 @@ body {
 	width: 100%;
 	min-width: 100%;
 	margin: 0 auto;
+	background: url(../img/SV_650.png) no-repeat;
+	background-position-x: 20%;
 }
 
 header {
-	height: 70px;
+	height: 65px;
 	weight: 100%;
-	background: #f5f5f5;
-	background-image: linear-gradient(top, #ccc, #f5f5f5);
-	background-image: -moz-linear-gradient(top, #ccc, #f5f5f5);
-	background-image: -o-linear-gradient(top, #ccc, #f5f5f5);
-	background-image: -webkit-linear-gradient(top, #ccc, #f5f5f5);
-	}
+}
+
+.social {
+
+}
 
 section {
 	height: 100px;
@@ -46,6 +49,7 @@ section {
 	background-image: url('../img/logo.jpg');
 	background-repeat: no-repeat;
 	background-size: contain;
+	z-index: 2
 }
 
 .logo a {
@@ -159,8 +163,19 @@ footer {
 	left: 0;
 	bottom: 0;
 	background: #f5f5f5;
-	background-image: linear-gradient(top, #f5f5f5, #ddd);
-	background-image: -moz-linear-gradient(top, #f5f5f5, #ddd);
-	background-image: -o-linear-gradient(top, #f5f5f5, #ddd);
-	background-image: -webkit-linear-gradient(top, #f5f5f5, #ddd);
+	background-image: linear-gradient(top, #f5f5f5, #ccc);
+	background-image: -moz-linear-gradient(top, #f5f5f5, #ccc);
+	background-image: -o-linear-gradient(top, #f5f5f5, #ccc);
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #ccc);
+}
+
+footer div {
+	width: 1024px;
+	margin: auto;
+}
+
+footer p {
+	display: inline;
+	font: 14px 'Open Sans', sans-serif;
+	font-weight: 400;
 }
